@@ -5,18 +5,23 @@
 	<groupId>br.com.bruno</groupId>
 	<artifactId>SoftwareArchitecture</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<build>
 		<plugins>
-			<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-compiler-plugin</artifactId>
-			<configuration>
-				<source>11.0</source>
-				<target>11.0</target>
-			</configuration>
-		</plugin>
+
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-compiler-plugin</artifactId>
+						<version>3.7.0</version>
+						<configuration>
+							<release>11</release>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
 		</plugins>
 	</build>
-	
+
 </project>	
